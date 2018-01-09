@@ -1,0 +1,38 @@
+#sidebar-wrapper{
+    width: 20%;
+    display: inline-block;
+}
+
+.content-wrapper{
+    float: right;
+    width: 80%;
+    padding-left: 20px;
+}
+
+#sidebar-wrapper .sidebar-ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.sidebar-li{
+    list-style: none;
+    padding: 10px;
+    background-color: #d7dee4;
+    border-bottom: 1px solid #abc;
+}
+
+.sidebar-li:hover{
+    outline: 2px solid #abc;
+}
+
+#sidebar-wrapper li a {
+    font-size: 20px;
+
+    color: #5f3636;
+    display: block;
+    text-decoration: none;
+}
+
+label{
+    text-align: left;
+}
